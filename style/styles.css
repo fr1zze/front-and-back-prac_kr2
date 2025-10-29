@@ -340,6 +340,11 @@ article {
     transition: all 0.3s ease;
 }
 
+.contact-button:hover {
+    transform: translateY(-3px); /* Поднятие элемента при наведении */
+    box-shadow: 0 6px 20px rgba(174, 86, 172, 0.4); /* Увеличение тени при наведении */
+}
+
 
 .contact-info {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
@@ -394,6 +399,11 @@ footer {
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     border-left: 4px solid #9be080;
+    transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateX(5px); /* Сдвиг вправо при наведении */
 }
 
 @media (max-width: 768px) {
